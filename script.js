@@ -4,9 +4,9 @@ function isSameType(value1, value2) {
 	{
 		return Number.isNaN(value1) && Number.isNaN(value2)
 	}
-	else{
+	
 		return (typeof value1 === typeof value2);
-	}
+	
 	
 }
 
